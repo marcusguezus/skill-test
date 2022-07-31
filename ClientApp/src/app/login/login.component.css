@@ -12,9 +12,10 @@
 .logo-image{
     width: 180px;
     margin-bottom: 40px;
+    margin-top: -110px;
 }
 .card-body{
-    padding: 32px;
+    padding: 40px 48px;
 }
 .btn-login{
     width: 100%;
