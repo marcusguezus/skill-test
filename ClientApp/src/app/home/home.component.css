@@ -1,0 +1,17 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.card{
+    margin: 32px;
+    padding: 32px;
+}
+table > thead > tr > th{
+    border-top: 2px solid #cfdbe6;
+    border-bottom: 2px solid #cfdbe6;
+}
+table td, table th{
+    vertical-align: middle;
+}

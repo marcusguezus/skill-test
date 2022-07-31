@@ -1,18 +1,20 @@
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
 
-html {
-  font-size: 14px;
+.container-fluid{
+  background-color: #198fef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding: 14px 32px;
+  
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.btn-link{
+  color: #fff;
 }
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.logo-image{
+  width: 115px;
+}
+span{
+  font-weight: bold;
+  padding: 12px;
 }
