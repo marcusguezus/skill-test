@@ -3,28 +3,21 @@
   <div class="card login-card" style="width: 400px">
     <div class="card-body">
       <p>Log in to your account</p>
-      <form>
         <div class="form-group">
           <i class="fa-solid fa-user"></i>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Enter email"
-          />
+          <input class="form-control"
+                 aria-describedby="emailHelp"
+                 placeholder="Username"
+                 [(ngModel)]="userName" />
         </div>
         <div class="form-group">
           <i class="fa-solid fa-lock"></i>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholder="Password"
-          />
+          <input type="password"
+                 class="form-control"
+                 placeholder="Password"
+                 [(ngModel)]="password" />
         </div>
-        <button type="submit" class="btn btn-success btn-login">Log in</button>
-      </form>
+        <button (click)="ValidateLogin()" class="btn btn-success btn-login">Log in</button>
     </div>
   </div>
 </div>
